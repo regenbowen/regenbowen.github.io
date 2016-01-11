@@ -1,0 +1,31 @@
+[class*=d1],[class*=d2],[class*=d3],.d-all{display:block;float:left;margin-right:-100%;}
+
+/* Design Key grid spans ----- */
+
+.d1{width:26.04166666%;}.d3{width:28.45052083%;}.d1-d2 .d1{width:38.11338732%;}.d2{width:39.16015625%;}.d2-d3 .d3{width:40.22089278%;}.d2-d3 .d2{width:55.36125173%;}.d1-d2 .d2{width:57.3130062%;}.d1-d2{width:68.32682291%;}.d2-d3{width:70.73567708%;}.d-all{width:100%;margin-left:0;clear:left;}
+
+/* Design Key grid padding ----- */
+
+[class*=d-pad]{padding-left:1.5625%;padding-right:1.5625%;left:-1.5625%;}.d2-d3 [class*=d-pad]{padding-left:2.20892775%;padding-right:2.20892775%;left:-2.20892775%;}.d1-d2 [class*=d-pad]{padding-left:2.28680324%;padding-right:2.28680324%;left:-2.28680324%;}[class~=d-padfull],[class~=d-padinfull],[class~=d-padfull],[class~=d-padinfull],[class~=d-padfull],[class~=d-padinfull]{padding-left:3.125%;padding-right:3.125%;left:-3.125%;}.d2-d3 [class~=d-padfull],.d2-d3 [class~=d-padinfull],.d2-d3 [class~=d-padfull],.d2-d3 [class~=d-padinfull]{padding-left:4.4178555%;padding-right:4.4178555%;left:-4.4178555%;}.d1-d2 [class~=d-padfull],.d1-d2 [class~=d-padinfull],.d1-d2 [class~=d-padfull],.d1-d2 [class~=d-padinfull]{padding-left:4.57360648%;padding-right:4.57360648%;left:-4.57360648%;}.d-pad,.d-padfull{position:relative;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}.d-padin[class~=d-padin],.d-padinfull[class~=d-padinfull]{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;left:0;}
+
+/* Design Key grid relationships ----- */
+
+[class*=d3]{margin-left:71.45182291%;}.d2-d3 [class*=d3]{margin-left:59.77910723%;}[class*=d2]{margin-left:29.16666666%;}.d1-d2 [class*=d2]{margin-left:42.6869938%;}
+.d1,[class*=d1-],.d-all,[class*=d1-],.d1,[class*=d1-] [class*=d1-],[class*=d1-] .d1,[class*=d2-] [class*=d2-],[class*=d2-] .d2,[class*=d3-] [class*=d3-],[class*=d3-] .d3{margin-left:0;clear:left;}
+
+/* Design Key grid floats ----- */
+
+[class*=d-float][class*=d-float]{margin-left:3.125%;margin-right:3.125%;}.d2-d3 [class*=d-float][class*=d-float]{margin-left:4.4178554995179%;margin-right:4.4178554995179%;}.d1-d2 [class*=d-float][class*=d-float]{margin-left:4.5736064797221%;margin-right:4.5736064797221%;}
+.d-floatright[class~=d-floatright],.d-floatright[class~=d-floatright]+.d-floatright[class~=d-floatright]{float:right;margin-right:0;clear:right;}
+.d-floatleft[class~=d-floatleft]{float:left;margin-left:0;}
+
+/* Design Key clearing ----- */
+
+[class*=d2]+[class*=d2],[class*=d3]+[class*=d3],[class*=d3]+[class*=d2],.d-clear{clear:left;}
+.d-overlap[class*=overlap]{clear:none;}
+
+/* Design Key hiding ----- */
+
+.d-hide{display:none !important;}
+
+}

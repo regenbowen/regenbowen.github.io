@@ -1,0 +1,915 @@
+/*
+========================================================================================
+	Reset by Eric Meyer + Else 
+========================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	display: block;
+	clear: both;
+	list-style: none;
+}
+
+img, video,
+embed, object {
+	height: auto;
+	max-width: 100%;
+}
+
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*
+========================================================================================
+	Init 
+========================================================================================
+*/
+
+html { height: 100%; font-size: 62.5%; }
+body { height: 100%; background: #FCFCFA; color: #282828; line-height: 3.0rem; 
+	   font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+
+/*
+========================================================================================
+	Overture 
+========================================================================================
+*/
+
+#overture {
+	background: #E8E8E8;
+	position: fixed;
+	z-index: 999999; /* Future-proof, again. */
+}
+
+
+/*
+========================================================================================
+	Begins 
+========================================================================================
+*/
+
+#begins {}
+
+	#begins article {
+		padding-top: 24rem;
+	}
+
+	#begins p {
+		width: 32.4rem;
+		color: #a4a4a4;
+	}
+	
+	#begins a {
+		color: #b0b0b0;
+	}
+
+
+/*
+========================================================================================
+	Design 
+========================================================================================
+*/
+
+#design {
+	color: #A4A4A4;
+	background: #E8E8E8;
+}
+
+	#design article {
+		padding-top: 0;
+		/*padding-bottom: 56.4rem;*/
+	}
+
+	#design p {
+		width: 38.5rem;
+		position: relative;
+		top: -64px;
+	}
+
+
+/*
+========================================================================================
+	Introspection 
+========================================================================================
+*/
+
+.introspection {}
+
+	.introspection article {
+		padding-top: 0;
+	}
+
+	.introspection p {
+		color: #F5F5F5;
+		width: 38.4rem;
+	}
+
+	.introspection .image {
+		position: absolute;
+		background-size: 100% 100% !important;
+		background-repeat: no-repeat;
+		z-index: 10; text-indent: -99999px;
+		border-radius: 4px;
+	}
+
+	.introspection .mono {
+		font-size: 1.2rem;
+		line-height: 1.6rem;
+	}
+
+	.introspection .one { 
+		position: absolute;
+		top: 40px; left: -40px;
+	}
+
+	.introspection .two {
+		position: absolute;
+		bottom: 40px; right: -64px;
+		text-align: right;
+	}
+
+	.introspection .ipad.landscape, 
+	.introspection .iphone.portrait {
+		margin: 0 auto;
+	}
+
+#is-black {
+	background: #0A0A0A;
+}
+
+	#is-black path {
+		fill: #515151;
+	}
+
+	#is-black .mono {
+		color: #474747;
+	}
+
+#is-blue {
+	background: #425C9C;
+}
+
+	#is-blue path {
+		fill: #314678;
+	}
+
+	#is-blue .mono {
+		color: #26375E;
+	}
+
+	#is-blue .mono.two {
+		text-align: left;
+		left: 24px; bottom: 24px; right: 0;
+	}
+
+	#is-blue .iphone.portrait {
+		margin-top: 16.4rem;
+	}
+
+
+/*
+========================================================================================
+	Sum 
+========================================================================================
+*/
+
+#sum {
+	color: #A4A4A4;
+	background: #E8E8E8;
+}
+	
+	#sum p {
+		width: 38.4rem;
+	}
+
+	#sum #rainbow {
+		-webkit-animation: rainbow 24s ease-out infinite alternate;
+		   -moz-animation: rainbow 24s ease-out infinite alternate;
+			 -o-animation: rainbow 24s ease-out infinite alternate;
+			    animation: rainbow 24s ease-out infinite alternate;
+	}
+
+	@keyframes rainbow {
+		0%   { color: red; }
+		17%  { color: orange; }
+		34%  { color: yellow; }
+		51%  { color: lawngreen; }
+		68%  { color: dodgerblue; }
+		85%  { color: darkorchid; }
+		100% { color: red; }
+	}
+
+	@-webkit-keyframes rainbow {
+		0%   { color: red; }
+		17%  { color: orange; }
+		34%  { color: yellow; }
+		51%  { color: lawngreen; }
+		68%  { color: dodgerblue; }
+		85%  { color: darkorchid; }
+		100% { color: red; }
+	}
+
+	@-moz-keyframes rainbow {
+		0%   { color: red; }
+		17%  { color: orange; }
+		34%  { color: yellow; }
+		51%  { color: lawngreen; }
+		68%  { color: dodgerblue; }
+		85%  { color: darkorchid; }
+		100% { color: red; }
+	}
+
+	@-o-keyframes rainbow {
+		0%   { color: red; }
+		17%  { color: orange; }
+		34%  { color: yellow; }
+		51%  { color: lawngreen; }
+		68%  { color: dodgerblue; }
+		85%  { color: darkorchid; }
+		100% { color: red; }
+	}
+
+/*
+========================================================================================
+	Works 
+========================================================================================
+*/
+
+#works {
+	/* Parent */
+}
+
+	#works p, 
+	#works article > ul {
+		width: 38.4rem;
+	}
+
+	#works #workspective {
+		margin-top: -21.6rem;
+		padding-top: 0; left: 0;
+
+		-webkit-perspective: 2140px;
+		-moz-perspective: 2140px;
+		-ms-perspective: 2140px;
+		-o-perspective: 2140px;
+		perspective: 2140px;
+	}
+
+	#works #workspective ul {
+		width: 220.0rem;
+		height: 100%;
+		margin-left: -20%;
+		text-align: center;
+		overflow: hidden;
+
+		-webkit-transform: rotateX(64deg);
+		-moz-transform: rotateX(64deg);
+		-ms-transform: rotateX(64deg);
+		-o-transform: rotateX(64deg);
+		transform: rotateX(64deg);
+	}
+
+	#works #workspective ul li {
+		float: left;
+		margin: 0.8rem;
+		background-size: 100% 100%;
+		cursor: pointer;
+		-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		-o-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	#works #workspective ul li:hover {
+		opacity: 0.8;
+	}
+
+	/* If Transform 3D Enabled */
+	#works #workspective ~ p:first-of-type {
+		margin-top: -10.0rem;
+	}
+
+	#works .showcase {
+		padding-bottom: 2.4rem;
+	}
+
+	#works .workscase {
+		margin-left: 26%;
+	}
+
+	#works #soffio {
+		display: inline-block;
+		width: 100%;
+		max-height: 352px; max-width: 624px;
+		background: black;
+	}
+
+	#works #soffio iframe {
+		max-width: 100%;
+	}
+
+	#works #soffio iframe:hover {
+		opacity: 1;
+	}
+
+	#works article div:nth-of-type(2) ul {
+		position: relative;
+		width: 61.6rem;
+		margin-left: 22%;
+	}
+
+	#works article div:nth-of-type(2) ul li {
+		display: table;
+		float: left;
+		width: 16.4rem;
+		height: 16.4rem;
+		padding: 0; margin: 0 1.6rem;
+		text-align: center;
+	}
+
+	#works article div:nth-of-type(2) ul li span {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	#works article div:nth-of-type(4) {
+		text-align: left;
+		padding-left: 4.0rem;
+	}
+
+	#works #book {
+		display: inline-block;
+	}
+
+	#works #book img {
+		border-radius: 0.2rem;
+	}
+
+
+/*
+========================================================================================
+	I Am 
+========================================================================================
+*/
+
+#iam { 
+	padding: 0 !important;
+	color: #A4A4A4;
+	background: #E8E8E8;
+}
+
+	#iam article {
+		padding-bottom: 16.4rem;
+	}
+
+	#iam p {
+		width: 38.4rem;
+		font-size: 2.0rem;
+	}
+
+
+/*
+========================================================================================
+	Fin 
+========================================================================================
+*/
+
+#fin {
+	padding: 0 !important;
+	background: #E8E8E8;
+	position: relative;
+	overflow-x: hidden;
+}
+	
+	#fin a {
+		color: #B8B8B8;
+		cursor: text !important;
+	}
+
+	#fin .ship-playground {
+		float: left;
+		width: 50%; height: 100%;
+	}
+
+	#fin div:first-of-type > div > div > span {
+		float: left;
+		margin-right: -64px;
+	}
+
+	#fin div:last-of-type > div > div > span {
+		float: right;
+		margin-left: -64px;
+	}
+
+	#fin p {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+	
+	/*
+	#fin p:first-of-type {
+		bottom: 24%;
+		font-size: 3.2rem;
+		font-family: reklame-script, proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}*/
+
+	#fin p:last-of-type {
+		bottom: 4%; opacity: 0.16;
+	}
+
+
+/*
+========================================================================================
+	Images 
+========================================================================================
+*/
+
+#quarno-one 		{ background: url("../img/apps/quarno-ph5-angled.png"); }
+#quarno-two 		{ background: url("../img/apps/quarno-landscape-angled.png"); }
+#quarno-three 		{ background: url("../img/apps/quarno-pad.png"); }
+#vivo-one 			{ background: url("../img/apps/vivo-angled.png"); }
+#vivo-two 			{ background: url("../img/apps/vivo-off-angled.png"); }
+
+.portrait-angled-right {
+	top: 24px; left: 42px;
+	width: 34.8rem; height: 21.6rem;
+}
+
+.portrait-angled-left {
+	top: 23px; left: 38px;
+	width: 34.8rem; height: 21.7rem;
+}
+
+.landscape-angled-left {
+	top: 53px; left: 115px;
+	width: 30.6rem; height: 22.7rem;
+}
+
+.ipad-landscape {
+	top: 24px; left: 60px;
+	width: 48.5rem; height: 36.4rem;
+}
+
+#joy-root 			{ background: url("../img/apps/joy.png"); }		  
+#joy-photo 			{ background: url("../img/apps/joy-photo.png"); }
+#kalk-root 			{ background: url("../img/apps/kalk.png"); }
+#veerare-root 		{ background: url("../img/apps/veerare.png"); }
+#veerare-url		{ background: url("../img/apps/veerare-url.png"); }
+#veew-hover 		{ background: url("../img/apps/veew.png"); }
+#veew-root	 		{ background: url("../img/apps/veew-b.png"); }
+#quarno-fold 		{ background: url("../img/apps/quarno-ph-b.png"); }
+#quarno-pad-black	{ background: url("../img/apps/quarno-pad-b.png"); }
+
+
+/*
+========================================================================================
+	Lightbox 
+========================================================================================
+*/
+
+#lightbox {
+	position: fixed;
+	background: rgba(255,255,255,0.96);
+	color: #282828;	text-align: center;
+	z-index: 99999;	display: none;
+	cursor: pointer;
+}
+
+	#lightbox span {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		background-size: 100% 100%;
+		text-indent: -99999px;
+		-webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		-o-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+	}
+
+	#lightbox span.iphone-4-app {
+		width: 30.4rem;
+		height: 45.6rem;
+	}
+
+	#lightbox span.ipad-app {
+		width: 61.2rem;
+		height: 45.9rem;
+	}
+
+	#lightbox p {
+		margin-top: 4.0rem;
+		font-weight: 600;
+	}
+
+
+/*
+========================================================================================
+	Layout 
+========================================================================================
+*/
+
+p ~ ul {
+	padding-top: 2.4rem;
+}
+
+ul li {
+	padding: 0.8rem 0;
+}
+
+#content 		 { overflow-x: hidden; }
+#content section { position: relative; }
+
+svg, 
+path,
+.transition {
+	-webkit-transition: all 0.24s ease-out;
+	   -moz-transition: all 0.24s ease-out;
+	   	-ms-transition: all 0.24s ease-out;
+	   	 -o-transition: all 0.24s ease-out;
+	        transition: all 0.24s ease-out;
+}
+
+.showcase {
+	position: relative;
+	clear: both;
+	padding: 10.0rem 0;
+}
+
+.faux-table {
+	display: table; 
+	position: absolute;
+	top: 0;	left: 0;
+	height: 100%; width: 100%;
+}
+
+	.faux-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+.no-scroll {
+	overflow: hidden;
+  	height: 100%;
+}
+
+
+/*
+========================================================================================
+	Typography 
+========================================================================================
+*/
+
+h1	 	{ font-size: 2.4rem; padding: 6.4rem 0 16.4rem 0; letter-spacing: -0.1rem; }
+p 		{ font-size: 1.8rem; clear: both; }
+em 		{ font-style: italic; }
+strong  { font-weight: 500; }
+.small	{ font-size: 1.6rem; line-height: 2.6rem; }
+.mono   { font-family: droid-sans-mono, Monaco, "Lucida Sans Typewriter", "Lucida Console", "Bitstream Vera Sans Mono", monospace !important; }
+
+p ~ p {
+	padding-top: 2.4rem;
+}
+
+a { 
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,.064);
+	-webkit-transition: all 0.16s ease-out;
+       -moz-transition: all 0.16s ease-out;
+       	-ms-transition: all 0.16s ease-out;
+       	 -o-transition: all 0.16s ease-out;
+            transition: all 0.16s ease-out;
+}
+
+	a:hover {
+		opacity: 0.88;
+		border-bottom: 1px solid rgba(0,0,0,0);
+	}
+
+	.white a 			{ color: #282828; }
+	.grey a 			{ color: #B0B0B0; }
+	.black a, .blue a 	{ color: #F5F5F5; }
+
+	.white a:hover 		{ background: rgba(240,240,240,0.64); }
+	.grey a:hover 		{ background: rgba(255,255,255,0.40); }
+	.black a:hover 		{ background: rgba(64,64,64,0.64); }
+	.blue a:hover 		{ background: rgba(44,62,105,0.40); }
+
+	.no-border			{ border: 0; }
+	.no-border:hover 	{ border: 0 !important; }
+
+	.no-hover:hover		{ opacity: 1; border: 0 !important; }
+
+
+/*
+========================================================================================
+	Devices 
+========================================================================================
+*/
+
+.iphone {
+	position: relative;
+	margin-left: 26%;
+}
+
+	.iphone svg {
+		left: 0;
+	}
+
+	.iphone.portrait-perspective {
+		width: 429px;
+		height: 320px;
+	}
+
+	.iphone.landscape-perspective {
+		width: 497px;
+		height: 302px;
+	}
+
+	.iphone.landscape-perspective .two {
+		bottom: -16px; right: 24px;
+	}
+ 
+	.iphone.portrait {
+		display: block;
+	}
+
+	.iphone-4-app {
+		width: 20.4rem;
+		height: 30.6rem;
+		border-radius: 4px;
+	}
+
+.ipad {
+	width: 608px;
+	height: 408px;
+	position: relative;
+	margin: 12.4rem auto 0 auto;
+}
+
+	.ipad svg {
+		position: absolute;	top: -100px; left: 68px;
+	}
+
+	.ipad-app {
+		width: 51.2rem;
+		height: 38.4rem;
+		border-radius: 4px;
+	}
+
+
+/*
+========================================================================================
+	Ships 
+========================================================================================
+*/
+
+.ship {
+	position: relative;
+	float: left;
+	display: block;
+	width: 64px; height: 64px;
+	background-size: 64px 64px !important;
+	text-indent: -99999px; /* Future-proof. */
+	-webkit-transition: all 0.24s ease-out;
+       -moz-transition: all 0.24s ease-out;
+       	-ms-transition: all 0.24s ease-out;
+       	 -o-transition: all 0.24s ease-out;
+            transition: all 0.24s ease-out;
+
+    -webkit-animation: ship 2.8s ease-out infinite alternate;
+	   -moz-animation: ship 2.8s ease-out infinite alternate;
+		 -o-animation: ship 2.8s ease-out infinite alternate;
+		    animation: ship 2.8s ease-out infinite alternate;
+}
+
+#grey-ship {
+	float: none;
+	margin: 0 auto;
+	background-image: url("../img/ship-grey@2x.png");
+
+	-webkit-animation: ship-load 0.44s ease-out infinite alternate;
+	   -moz-animation: ship-load 0.44s ease-out infinite alternate;
+		 -o-animation: ship-load 0.44s ease-out infinite alternate;
+		    animation: ship-load 0.44s ease-out infinite alternate;
+}
+
+#white-ship {
+	float: none;
+	margin: 0 auto;
+	background-image: url("../img/ship-white@2x.png");
+}
+
+#red-ship 		{ background-image: url("../img/ship-red@2x.png"); }
+#orange-ship 	{ background-image: url("../img/ship-orange@2x.png"); }
+#yellow-ship 	{ background-image: url("../img/ship-yellow@2x.png"); }
+#green-ship 	{ background-image: url("../img/ship-green@2x.png"); }
+#blue-ship 		{ background-image: url("../img/ship-blue@2x.png"); }
+#magenta-ship 	{ background-image: url("../img/ship-magenta@2x.png"); }
+
+#grey-floated-ship { background-image: url("../img/ship-grey@2x.png"); }
+
+
+@keyframes ship {
+	0%   { opacity: 1.00; }
+	25%  { opacity: 0.78; }
+	50%  { opacity: 0.88; }
+	75%  { opacity: 0.72; }
+	100% { opacity: 0.92; }
+}
+
+@-webkit-keyframes ship {
+	0%   { opacity: 1.00; }
+	25%  { opacity: 0.78; }
+	50%  { opacity: 0.88; }
+	75%  { opacity: 0.72; }
+	100% { opacity: 0.92; }
+}
+
+@-moz-keyframes ship {
+	0%   { opacity: 1.00; }
+	25%  { opacity: 0.78; }
+	50%  { opacity: 0.88; }
+	75%  { opacity: 0.72; }
+	100% { opacity: 0.92; }
+}
+
+@-o-keyframes ship {
+	0%   { opacity: 1.00; }
+	25%  { opacity: 0.78; }
+	50%  { opacity: 0.88; }
+	75%  { opacity: 0.72; }
+	100% { opacity: 0.92; }
+}
+
+@keyframes ship-load {
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+
+@-webkit-keyframes ship-load {
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+
+@-moz-keyframes ship-load {
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+@-o-keyframes ship-load {
+	from { opacity: 0; }
+	to 	 { opacity: 1; }
+}
+
+/*
+========================================================================================
+	Misc 
+========================================================================================
+*/
+
+.container {
+	position: relative;	z-index: 10;
+	padding-bottom: 58.8rem;
+}
+
+.fader {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	/*z-index: -99999;  Future-proof, again. */
+}
+
+.flip-horizontal {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: "FlipH";
+    -ms-filter: fliph;
+    filter: fliph;
+}
+
+.flip-vertical {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -ms-filter: "FlipV";
+    -ms-filter: flipv;
+    filter: flipv;
+}
+
+.rotate-clockwise {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate-counterclockwise {
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.unselectable {
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none;
+    -o-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    cursor: default;
+}
+
+.opacity-0  { opacity: 0; }
+.opacity-16 { opacity: .16; }
+.opacity-24 { opacity: .24; }
+.opacity-40 { opacity: .40; }
+.opacity-64 { opacity: .64; }
+
+.white ::-webkit-selection { background: rgba(240,240,240,0.64); }
+.white ::-moz-selection { background: rgba(240,240,240,0.64); }
+.white ::-o-selection { background: rgba(240,240,240,0.64); }
+.white ::selection { background: rgba(240,240,240,0.64); }
+
+.grey ::-webkit-selection { background: rgba(255,255,255,0.40); }
+.grey ::-moz-selection { background: rgba(255,255,255,0.40); }
+.grey ::-o-selection { background: rgba(255,255,255,0.40); }
+.grey ::selection { background: rgba(255,255,255,0.40); }
+
+.black ::-webkit-selection { background: rgba(64,64,64,0.64); }
+.black ::-moz-selection { background: rgba(64,64,64,0.64); }
+.black ::-o-selection { background: rgba(64,64,64,0.64); }
+.black ::selection { background: rgba(64,64,64,0.64); }
+
+.blue ::-webkit-selection { background: rgba(44,62,105,0.40); }
+.blue ::-moz-selection { background: rgba(44,62,105,0.40); }
+.blue ::-o-selection { background: rgba(44,62,105,0.40); }
+.blue ::selection { background: rgba(44,62,105,0.40); }
+
+#warning { display: none; }
+
+
+/*
+========================================================================================
+	(Not so) Responsive 
+========================================================================================
+*/
+
+@media only screen and (max-width: 639px){
+	#overture { display: none; }
+	#content { display: none; }
+	#warning { display: table; }
+	#warning p { padding: 0 16%; text-align: center; line-height: 2.0rem; }
+	#warning p a { position: relative; top: 0.8rem; opacity: 0.64; }
+}
+
+@media only screen and (min-width: 1444px){
+	.iphone, .workscase { margin-left: 28%; }
+	#works article div:nth-of-type(2) ul { margin-left: 24%; }
+}
+
+@media only screen and (min-width: 1900px){
+	/*#design .container { padding-bottom: 86.4rem; }*/
+	#works #workspective ul { margin-left: -6%; }
+}
+
+@media only screen and (min-width: 2440px){
+	#works article div:nth-of-type(2) ul { margin-left: 25%; }
+}
